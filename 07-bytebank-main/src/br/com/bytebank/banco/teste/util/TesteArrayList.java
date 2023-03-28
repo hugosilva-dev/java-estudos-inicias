@@ -13,7 +13,7 @@ public class TesteArrayList {
 		//Generics = especificação das listas, tornando desnecessario o cast
 		List<Conta> lista = new ArrayList<>();
 		
-		ArrayList<String> nomes = new ArrayList<>();
+//		ArrayList<String> nomes = new ArrayList<>();
 		
 		Conta cc = new ContaCorrente(22, 11);
 		lista.add(cc);
