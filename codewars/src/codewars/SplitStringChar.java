@@ -1,12 +1,12 @@
 package codewars;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
-public class TesteString2 {
+public class SplitStringChar {
 
 	public static void main(String[] args) {
 
+		int k = 0;
 		String s = "abcde";
 		if (s.length() % 2 != 0)
 			s = s + '_';
@@ -14,12 +14,10 @@ public class TesteString2 {
 		for (int i = 0; i < letras.length; i++) {
 			letras[i] = s.charAt(i);
 		}
-//		System.out.println(Arrays.toString(letras));
 		String[] answer = new String[s.length() / 2];
-		for (int i = 0; i < s.length(); i++) {
-			for (int j = 0; j < letras.length; j++) {
-				answer[i] = String.valueOf(letras[j]) + String.valueOf(letras[j + 1]);
-			}
+		for (int j = 0; j < s.length(); j += 2) {
+			answer[k] = String.valueOf(letras[j]) + String.valueOf(letras[j + 1]);
+			k++;
 		}
 		System.out.println(Arrays.toString(answer));
 	}

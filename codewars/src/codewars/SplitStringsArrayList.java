@@ -1,6 +1,6 @@
 package codewars;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 /**
  * @author hugou Kata: SplitStrings (6kyu):
@@ -13,21 +13,18 @@ import java.util.Arrays;
  *         Ex.: 'abc' => ['ab', 'c_']; 'abcdef' => ['ab', 'cd', 'ef'].
  *
  */
-public class SplitStrings {
+public class SplitStringsArrayList {
 
 	public static void main(String[] args) {
 
-		int i = 0;
 		String s = "abcde";
+		ArrayList<String> pair = new ArrayList<>();
 		if (s.length() % 2 != 0)
 			s = s + '_';
-		String[] answer = new String[s.length() / 2];
-		for (int j = 0; j < s.length(); j += 2) {{
-			String sub = s.substring(j, j + 2);
-			answer[i] = sub;
-			i++;
-			}
+		for (int i = 0; i < s.length(); i += 2) {
+			String sub = s.substring(i, i + 2);
+			pair.add(sub);
 		}
-		System.out.println(Arrays.toString(answer));
+		System.out.println(pair.toString());
 	}
 }
