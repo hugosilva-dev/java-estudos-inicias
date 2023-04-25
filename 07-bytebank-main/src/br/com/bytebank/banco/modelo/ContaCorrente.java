@@ -1,5 +1,7 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 public class ContaCorrente extends Conta implements Tributavel{
 	//HERANÇA - herda-se atributos e métodos, não herda-se construtores.
 	
