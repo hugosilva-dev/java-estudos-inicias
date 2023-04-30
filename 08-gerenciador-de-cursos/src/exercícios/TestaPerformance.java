@@ -1,4 +1,4 @@
-package br.com.alura;
+package exercícios;
 
 import java.util.Collection;
 import java.util.HashSet;
