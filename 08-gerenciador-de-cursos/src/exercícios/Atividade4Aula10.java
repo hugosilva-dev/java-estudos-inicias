@@ -22,7 +22,8 @@ public class Atividade4Aula10 {
 //		System.out.println(pessoas.entrySet());
 		
 		Set<Entry<Integer, String>> associacoes = pessoas.entrySet();
-		for (Entry<Integer, String> associacao : associacoes) {
+		for (Entry<Integer, 
+				String> associacao : associacoes) {
 			System.out.println(associacao.getKey() + " - " + associacao.getValue());
 		}
 	}
