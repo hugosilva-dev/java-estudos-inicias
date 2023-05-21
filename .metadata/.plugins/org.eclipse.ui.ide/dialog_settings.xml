@@ -17,6 +17,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\hugou\eclipse-workspace\11- JUnit"/>
+			<item value="C:\Users\hugou\eclipse-workspace\10-treinando-java8"/>
+			<item value="C:\Users\hugou\eclipse-workspace\09-gerenciador-de-cursos"/>
+			<item value="C:\Users\hugou\eclipse-workspace\08 - java-io"/>
+			<item value="C:\Users\hugou\eclipse-workspace\07-bytebank-main"/>
 			<item value="C:\Users\hugou\eclipse-workspace\11-bytebank-main"/>
 			<item value="C:\Users\hugou\eclipse-workspace\10- JUnit"/>
 			<item value="C:\Users\hugou\eclipse-workspace\07 - java-io"/>

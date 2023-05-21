@@ -11,7 +11,7 @@ public class TesteSaca {
 		
 		conta.deposita(200.0);
 		try {
-			conta.saca(100.0);
+			conta.saca(500.0);
 		}catch(SaldoInsuficienteException ex) {
 			System.out.println("Ex: " + ex.getMessage());
 		}
