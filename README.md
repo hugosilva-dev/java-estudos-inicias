@@ -1,5 +1,5 @@
-# java-workspace
- Estudos sobre a linguagem de programação Java
+# java-estudos-iniciais
+ Estudos sobre a linguagem de programação Java e Orientação a Objetos
 
 00-sintaxe-variaveis-e-fluxo: Conceitos iniciais na linguagem de programação Java;
 
@@ -17,6 +17,14 @@
 
 07-bytebank-main: Pasta principal contendo o projeto Bytebank, explorando todos os conceitos aprendidos no curso de O.O. em Java da Alura na classe Conta e classe e testes relacionados. Além dos conceitos anteriores, temos a aplicação dos pacotes java.lang (classes fundamentais como String, System e Object) e java.util (classe ArrayList, comando Generics, método equals() e mais;
 
-codewars: resolução de desafios (Kata) da plataforma Codewars.com;
+08-java.io: Formas de leitura e escrita de dados binários e textuais, criação de arquivos de texto;
 
-projeto-lanchonete: projeto prático para treinar os conceitos de O.O. em Java, ainda não iniciado, descrição da demanda do projeto em PDF.
+09-gerenciado-de-cursos: Atividades do curso de java.Collection (Lists, Sets e Maps);
+
+10-treinando-java8: Novidades do java 8 como lambda expressions e API de data e hora;
+
+11-JUnit: Aprendendo sobre testes automatizados e a utilização da JUnit;
+
+12-treinando-api: Primeiros passos no consumo de API HTTP;
+
+codewars: resolução de desafios (Kata) da plataforma Codewars.com.
