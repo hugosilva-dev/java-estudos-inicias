@@ -1,5 +1,5 @@
 # java-estudos-iniciais
- Estudos sobre a linguagem de programação Java e Orientação a Objetos
+ Estudos sobre a linguagem de programação Java e Orientação a Objetos (formações alura.com.br)
 
 00-sintaxe-variaveis-e-fluxo: Conceitos iniciais na linguagem de programação Java;
 
