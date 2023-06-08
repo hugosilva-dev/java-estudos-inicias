@@ -21,7 +21,7 @@
 
 09-gerenciado-de-cursos: Atividades do curso de java.Collection (Lists, Sets e Maps);
 
-10-treinando-java8: Novidades do java 8 como lambda expressions e API de data e hora;
+10-treinando-java8: Novidades do java 8 como default methods, lambda expressions, classes anônimas e API de data e hora;
 
 11-JUnit: Aprendendo sobre testes automatizados e a utilização da JUnit;
 
